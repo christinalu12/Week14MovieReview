@@ -3,18 +3,20 @@ import ReviewForm from './ReviewForm';
 import ReviewList from './ReviewList';
 import StarRating from './StarRating';
 
+//permanent reviews
 const initialReviews = [
   { name: 'John Doe', review: 'Great movie!' },
   { name: 'Jane Smith', review: 'Highly recommended!' },
 ];
 
+// create a reviews dynamicaaly
 export default function MovieCard() {
   const [reviews, setReviews] = useState(initialReviews);
 
   const addReview = (review) => {
     setReviews([...reviews, review]);
   };
-
+//card info
   return (
     <div className="card">
       <img className='card-image'

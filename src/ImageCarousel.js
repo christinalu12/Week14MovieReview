@@ -1,7 +1,7 @@
 import React from "react";
 import SimpleImageSlider from "react-simple-image-slider";
 
-
+//not my code, adjusted to fit project
 export default function App() {
    const sliderImages = [
       {

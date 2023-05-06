@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+//Define ReviewForm
 function ReviewForm(props) {
   const [nameValue, setNameValue] = useState("")
   const [reviewValue, setReviewValue] = useState("")
@@ -10,7 +11,7 @@ function ReviewForm(props) {
     setNameValue(""); // clear name input
     setReviewValue(""); // clear review input
   }
-
+// contents of actual form
   return (
     <form>
       <div>

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+//function to created UL in the moive card
 function ReviewList({ reviews }) {
   return (
     <div className='container'>
