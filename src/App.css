@@ -1,0 +1,72 @@
+.card {
+  text-align: center;
+  display: inline-block;
+  grid-template-rows: max-content 200px 1fr;
+  background-color: rgb(123, 158, 179);
+  color: white;
+  margin: 5%;
+  margin-top: 0%
+}
+
+body {
+  display: grid;
+
+  background-image: url('https://media.istockphoto.com/id/1204686375/vector/modern-cinema-background-with-realistic-film-strips-movie-frames-for-your-element-design-or.jpg?s=170667a&w=0&k=20&c=JHAaFZaxZszQ6HE_fx8Cn0UyVQuHnSezLqEHhYP5W_8=');
+}
+
+/* stars*/
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-top: 5%;
+}
+.on {
+  color: rgb(245, 222, 72);
+}
+.off {
+  color: #ccc;
+}
+
+star-rating {
+  text-align: center;
+  padding-top: 10%;
+  margin-bottom: 10%;
+}
+
+/*MovieCard*/
+.submitBtn {
+  background-color: rgb(195, 203, 203);
+  margin-top: 2%;
+  padding: 2%;
+}
+
+img {
+  text-align: center;
+  width: 300px;
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+h1 {
+ text-align: center;
+ color: white;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-weight: bold;
+ background-color: rgb(155, 155, 202);
+ padding: 3%;
+ margin: 5%;
+}
+
+.imageCarousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
