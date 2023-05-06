@@ -18,11 +18,11 @@ export default function MovieCard() {
   return (
     <div className="card">
       <img className='card-image'
-        src="https://cdn.posteritati.com/posters/000/000/068/206/everything-everywhere-all-at-once-md-web.jpg"
-        alt="Movie poster for Everything Everywhere All at Once"/>
+        src="https://m.media-amazon.com/images/M/MV5BNjI4ZTQ1OTYtNTI0Yi00M2EyLThiNjMtMzk1MmZlOWMyMDQwXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg"
+        alt="Movie poster for Death on the Nile"/>
         <br/><br/><br/>
-        <p className="synopsis">
-        A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone can save existence by exploring other universes and connecting with the lives she could have led.
+          <p className="synopsis">
+          While on vacation on the Nile, Hercule Poirot must investigate the murder of a young heiress.
         </p>
       <StarRating />
       <br/>

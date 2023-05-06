@@ -1,16 +1,32 @@
-.card {
+/*h1*/
+h1 {
   text-align: center;
-  display: inline-block;
-  grid-template-rows: max-content 200px 1fr;
-  background-color: rgb(123, 158, 179);
   color: white;
+  font-size: 60px;
+  font-family: Impact;
+  font-weight: bold;
+  background-color: rgb(123, 158, 179);
+  border-radius: 30px;
+  padding: 3%;
+  padding-left: 15%;
+  padding-right: 15%;
   margin: 5%;
-  margin-top: 0%
+  margin-top: 0%;
+ }
+ 
+/*Image Carousel*/
+.imageCarousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 body {
   display: grid;
-
   background-image: url('https://media.istockphoto.com/id/1204686375/vector/modern-cinema-background-with-realistic-film-strips-movie-frames-for-your-element-design-or.jpg?s=170667a&w=0&k=20&c=JHAaFZaxZszQ6HE_fx8Cn0UyVQuHnSezLqEHhYP5W_8=');
 }
 
@@ -36,37 +52,50 @@ star-rating {
 }
 
 /*MovieCard*/
-.submitBtn {
-  background-color: rgb(195, 203, 203);
-  margin-top: 2%;
-  padding: 2%;
+.card {
+  text-align: center;
+  display: inline-block;
+  grid-template-rows: max-content 200px 1fr;
+  background-color: rgb(123, 158, 179);
+  color: white;
+  margin: 2%;
+  margin-top: 0%;
+  max-width: 480px;
 }
 
-img {
+.submitBtn {
+  background-color: rgb(130, 136, 136);
+  margin-top: 2%;
+  margin-bottom: 5%;
+  padding: 3%;
+  color: white;
+}
+.card-image {
   text-align: center;
   width: 300px;
+  height: 450px;
+  margin-top: 5%;
 }
 
 form div {
   margin-bottom: 1rem;
 }
 
-h1 {
- text-align: center;
- color: white;
- font-family: Verdana, Geneva, Tahoma, sans-serif;
- font-weight: bold;
- background-color: rgb(155, 155, 202);
- padding: 3%;
- margin: 5%;
+.initialReviews {
+  list-style-type: none;
 }
 
-.imageCarousel {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 20%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+.container-RL {
+  list-style-type: none;
 }
+
+p {
+  display: inline-block;
+  max-width: 100%;
+  word-wrap: break-word;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+
+

@@ -18,11 +18,11 @@ export default function MovieCard() {
   return (
     <div className="card">
       <img className='card-image'
-        src="https://cdn.posteritati.com/posters/000/000/068/206/everything-everywhere-all-at-once-md-web.jpg"
-        alt="Movie poster for Everything Everywhere All at Once"/>
+        src="https://pbs.twimg.com/media/FWnMpVJWYAEZtns?format=jpg&name=large"
+        alt="Movie poster for Nope"/>
         <br/><br/><br/>
         <p className="synopsis">
-        A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone can save existence by exploring other universes and connecting with the lives she could have led.
+        The residents of a lonely gulch in inland California bear witness to an uncanny and chilling discovery.
         </p>
       <StarRating />
       <br/>

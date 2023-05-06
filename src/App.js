@@ -4,7 +4,7 @@ import ReviewForm from './ReviewForm';
 import MovieCard from './MovieCard';
 import MovieList from './MovieList';
 
-//THIS IS THE ONE WHERE YOU PUT STUFF TO BE SEEN
+//MoiveList goes here
 function App() {
   return (
     <div>
